@@ -1,0 +1,49 @@
+body{
+    background:#f5f6fa;
+     padding-bottom: 50px;
+
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card-header{
+    font-weight:bold;
+}
+
+.display-5{
+    font-weight:bold;
+}
+
+.dashboard-card{
+    transition:transform .2s ease;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-4px);
+}
+
+.chart-card{
+    min-height:420px;
+}
+
+.card-header{
+    font-weight:600;
+    font-size:1.05rem;
+}
+
+.chart-card{
+
+    height:420px;
+
+}
+
+.chart-card .card-body{
+
+    position:relative;
+
+    height:360px;
+
+}
